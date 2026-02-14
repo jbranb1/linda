@@ -590,6 +590,9 @@
                     <button class="btn-option" onclick="openModal('cenaModal')">
                         🍽️ Una cena (o Sushi?)
                     </button>
+                    <p style="margin-top: 40px; font-size: 1.3rem; color: var(--color-rosa); cursor: pointer; text-decoration: underline; font-style: italic;" onclick="openModal('dedicatoriaModal')">
+                        O quizás algo más...
+                    </p>
                 </div>
             </div>
         </div>
@@ -652,6 +655,21 @@
                 </button>
                 <button class="btn-modal-close" onclick="closeModal('cenaModal')">
                     Ya se terminaron? :(
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Dedicatoria -->
+    <div id="dedicatoriaModal" class="modal-overlay">
+        <div class="modal-content">
+            <h2 class="modal-title">Para Ti</h2>
+            <p class="modal-text">
+                ¿Un cartel público? No. Tú no eres como todas. Tú brillas diferente y resaltas entre la multitud. Estas palabras son solo tuyas, un susurro del corazón que merece ser auténtico e íntimo.
+            </p>
+            <div class="modal-button-group">
+                <button class="btn-modal-close" onclick="closeModal('dedicatoriaModal')">
+                    ...
                 </button>
             </div>
         </div>
